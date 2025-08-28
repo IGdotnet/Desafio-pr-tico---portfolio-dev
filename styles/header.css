@@ -1,0 +1,32 @@
+header {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    sub {
+
+        color: white;
+
+        span {
+            color: orange;
+        }
+    }
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        font: var(--text-sd);
+        color: white;
+    }
+
+    span {
+        font: var(--text-md);
+        color: white;
+    }
+
+    div {
+        background-color: var(--grey-400); 
+    }
+}

@@ -1,0 +1,22 @@
+#meuTrabalho {
+
+    grid-area: meuTrabalho;
+}
+
+#meusServicos {
+
+    grid-area: meuServicos;
+
+    background-color: var(--gray-600);
+}
+
+#contatos {
+
+    grid-area: contatos;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
