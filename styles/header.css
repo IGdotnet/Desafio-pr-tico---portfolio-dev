@@ -1,32 +1,80 @@
+@import url(global.css);
+
 header {
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
     background-repeat: no-repeat;
 
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+
     sub {
 
+        font: var(--subtitle);
         color: white;
 
-        span {
+        div {
+            display: inline-block;
             color: orange;
         }
     }
 
     h1 {
+        font: var(--title-lg);
         color: white;
     }
 
     p {
-        font: var(--text-sd);
+        font: var(--text-sm);
         color: white;
     }
 
     span {
+
         font: var(--text-md);
         color: white;
+
+        display: inline-flex;
+
+
+        background-color: var(--gray-400);
+        border-radius: 40%;
+
+        justify-content: center;
+        align-items: center;
     }
 
-    div {
-        background-color: var(--grey-400); 
+    span > div {
+        display: flex;
+        gap: 4px;
+        margin-inline: 16px;
+        margin-block: 8px;
     }
+
+}
+
+header > div:last-of-type {
+    margin-top: 94px;
+}
+
+#apresentação {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-inline: 80px;
+    gap: 16px;
+}
+
+#ferramentas {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
 }

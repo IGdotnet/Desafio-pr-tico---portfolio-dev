@@ -1,14 +1,133 @@
+@import url(global.css);
+
 #meuTrabalho {
 
-    grid-area: meuTrabalho;
+    background-color: var(--gray-500);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 72px;
+
+    #meutrab {
+        color: red;
+        font: var(--subtitle);
+    }
+
+    #figures {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-inline: 120px;
+        padding-bottom: 144px;
+        padding-top: 56px;
+        gap: 24px;
+
+        figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 330px;
+            height: 280px;
+            color: white;
+            border-radius: 10px;
+
+            img {
+                margin-top: 10px;
+                display: flex;
+                width: 306px;
+                height: 156px;
+                border-radius: 10px;
+            }
+
+            span {
+                padding: 10px;
+                margin-right: auto;
+                color: var(--gray-100);
+                font: var(--title-sm);
+            }
+
+            p {
+                color: var(--gray-200);
+                font: var(--text-sm);
+                margin-right: auto;
+                margin-left: 10px;
+            }
+
+        }
+        
+    }
+
+    figure {
+        background-color: var(--gray-400);
+    }
+
+    h2 {
+        padding: 4px;
+        color: var(--gray-100);
+        font: var(--title-md);
+    }
 }
 
 #meusServicos {
 
     grid-area: meuServicos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 88px 120px 120px 120px;
+    background-color: var(--gray-600);    
 
-    background-color: var(--gray-600);
+    #meuserv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: red;
+            font: var(--subtitle);
+        }
+    }
+
+    h2 {
+        color: var(--gray-100);
+        font: var(--title-md);
+    }
+
+    #serv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 56px;  
+
+        div {
+            img {
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+            span {
+                display: block;
+                padding-top: 20px;
+                margin-left: 20px;
+                color: var(--gray-100);
+                font: var(--title-sm);
+            }
+
+            p {
+                padding-top: 10px;
+                color: var(--gray-200);
+                font: var(--text-sm);
+                margin-left: 20px;
+            }
+        }
+    }
 }
+
 
 #contatos {
 
