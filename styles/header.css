@@ -11,7 +11,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 750px;
-    width: fit-content;
+    width: auto;
 
 
     sub {
