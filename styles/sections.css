@@ -125,6 +125,12 @@
                 margin-left: 20px;
             }
         }
+
+        #devops {
+            span {
+                padding-top: 30px;
+            }
+        }
     }
 }
 

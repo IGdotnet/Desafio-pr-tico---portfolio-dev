@@ -10,6 +10,8 @@ header {
 
     align-items: center;
     justify-content: center;
+    height: 750px;
+    width: fit-content;
 
 
     sub {
@@ -42,7 +44,7 @@ header {
 
 
         background-color: var(--gray-400);
-        border-radius: 40%;
+        border-radius: 30px;
 
         justify-content: center;
         align-items: center;
